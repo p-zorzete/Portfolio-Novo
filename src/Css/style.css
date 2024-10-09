@@ -1,0 +1,78 @@
+body {
+      background-color: #000123;
+      font-family: "Abel", sans-serif;
+      font-weight: 400;
+      font-style: normal;     
+}
+
+/* Estilos da Capa */
+#capa{
+      width: 100%;
+      height: 80%;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+#apresentacao{
+      width: 60%;
+}
+
+.titulo{
+      color: #ff0f7b;
+      font-size: 80px;
+      margin-top: 20%;
+      margin-bottom: 0%;
+}
+
+.resumo{
+      color: white;
+      font-size: 25px;
+      margin-top: 0%;
+}
+
+#menuLateral{
+      width: 20%;
+}
+
+#textoMenu{
+      color: #ff0f7b;
+      font-size: 30px;
+      margin-top: 50%;
+}
+
+#listaMenu{
+      margin-top: 0%;
+      margin-bottom: 0%;
+}
+
+.cantos{
+      height: 15%;
+}
+
+#cantoSuperior{
+      transform: rotate(180deg);
+      width: 90%;
+}
+
+#cantoInferior{
+      display: flex;
+      justify-content: right;
+      width: 90%;
+}
+
+.itemMenu{
+      list-style-type: none;
+}
+
+ul li.itemMenu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+}
+
+#blocoInferior{
+      display: flex;
+      justify-content: center;
+      color: #ff0f7b;
+      font-size: 30px;
+}
