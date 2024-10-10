@@ -5,10 +5,18 @@ body {
       font-style: normal;     
 }
 
+.tituloRosa{
+      color: #ff0f7b;
+      font-size: 80px;
+}
+
+.textos{
+      color: white;
+      font-size: 25px;
+}
+
 /* Estilos da Capa */
 #capa{
-      width: 100%;
-      height: 80%;
       display: flex;
       justify-content: space-evenly;
 }
@@ -18,8 +26,6 @@ body {
 }
 
 .titulo{
-      color: #ff0f7b;
-      font-size: 80px;
       margin-top: 20%;
       margin-bottom: 0%;
 }
@@ -28,36 +34,43 @@ body {
       color: white;
       font-size: 25px;
       margin-top: 0%;
+      text-align: justify;
 }
 
 #menuLateral{
       width: 20%;
+      position:relative;
 }
 
 #textoMenu{
       color: #ff0f7b;
       font-size: 30px;
-      margin-top: 50%;
-}
-
-#listaMenu{
-      margin-top: 0%;
+      margin-top: 30%;
       margin-bottom: 0%;
+      padding: 0%;
 }
 
 .cantos{
-      height: 15%;
+      height: 20%;
 }
 
 #cantoSuperior{
       transform: rotate(180deg);
-      width: 90%;
+      width: 80%;
+      position:absolute;
+}
+
+#listaMenu{
+      position: relative;
+      top:15%;
+      left:10%;
 }
 
 #cantoInferior{
-      display: flex;
-      justify-content: right;
-      width: 90%;
+      width: 80%;
+      position:relative;
+      top:10%;
+      margin-left: 10%;
 }
 
 .itemMenu{
@@ -76,3 +89,110 @@ ul li.itemMenu a {
       color: #ff0f7b;
       font-size: 30px;
 }
+
+#seta{
+      width: 2%; 
+      margin-left: 49%;
+      margin-right: 49%;
+      height: 5%;
+}
+
+/* Estilos do Sobre */
+#textoSobre{
+      margin-left: 5%;
+      margin-bottom: 0%;
+}
+
+#sobreInfo{
+      display: flex;
+      justify-content: space-around;
+}
+
+#retrato{
+      height: 300px;
+      margin-left: 2%;
+      margin-top: 8%;
+}
+
+
+.sobreTexto{
+      width: 90%;
+      text-align: justify;
+}
+
+/* Estilos das Linguagens */
+#tituloLinguagens{
+      display: flex;
+      justify-content: center;
+}
+
+#linguagemInfo{
+      display: flex;
+      width: 100%;
+}
+
+#iconesLinguagens{
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+}
+
+.icon{
+      height: 80px;
+}
+
+#textoLinguagens{
+      width: 25%;
+}
+
+#botaoProjetos{
+      color: white;
+      background-color: #ff0f7b;
+      border-radius:20px;
+      width: 33%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Abel", sans-serif;
+      font-weight: 400;
+      font-size: medium;
+}
+
+#setaDireita{
+      height: 50%;
+      width: 30%;
+}
+
+/* Estilos das Habilidades */
+ #tituloHab{
+      margin-left: 2%;
+      margin-bottom: 0%;
+ }
+
+ .listaHab{
+      list-style: circle;
+      margin-left: 4%;
+ }
+
+ #subtitulo{
+      color: #ff0f7b;
+      font-size: 40px;
+      margin-left: 4%;
+      margin-bottom: 0%;
+ }
+
+ #blocoIdiomas{
+      margin-left: 6%;
+ }
+
+ .nivel{
+      display: flex;
+ }
+
+ .nivelIdioma{
+      color: white;
+      font-size: 20px;
+      margin-left: 2%;
+ }
+ 
