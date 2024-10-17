@@ -1,20 +1,22 @@
-import git from "../Assets/icon-github.png"
-import linkedin from "../Assets/icon-linkedin.png"
+import git from "../Assets/github.png"
+import linkedin from "../Assets/linkedIn.png"
+import curriculo from "../Assets/curriculo.png"
 
 
 function Contato() {
       return (
-            <div>
-                  <h1 id="tituloContato">Contato</h1>
+            <div id="Contato">
+                  <h1 className="tituloBranco">Contato</h1>
                   <div id="contatos">
-                        <div id="infos">
-                              <p>Osasco, São Paulo</p>
-                              <p>[11]98438-7945</p>
-                              <p>pedro.zorzeteb@gmail.com</p>
+                        <div>
+                              <p className="infos">Osasco, São Paulo</p>
+                              <p className="infos">[11]98438-7945</p>
+                              <p className="infos">pedro.zorzeteb@gmail.com</p>
                         </div>
                         <div id="iconsContato">
                               <img alt="Ícone que simboliza o github" className="icon" src={git}/>
                               <img alt="Ícone que simboliza o linkedIn" className="icon" src={linkedin}/>
+                              <img alt="Ícone que simboliza o linkedIn" className="icon" src={curriculo}/>
                         </div>
                   </div>
             </div>

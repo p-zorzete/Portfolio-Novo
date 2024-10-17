@@ -1,48 +1,59 @@
+/* Estilos usados em todo código */
 body {
       background-color: #000123;
       font-family: "Abel", sans-serif;
       font-weight: 400;
-      font-style: normal;     
+      font-style: normal;
 }
 
-.tituloRosa{
+.tituloRosa {
       color: #ff0f7b;
       font-size: 80px;
 }
 
-.textos{
+.tituloBranco {
+      color: white;
+      font-size: 80px;
+}
+
+.textos {
       color: white;
       font-size: 25px;
 }
 
-/* Estilos da Capa */
-#capa{
+.subtitulo{
+      color: #ff0f7b;
+      font-size: 40px;
+}
+
+/* Estilos do componente Capa */
+#capa {
       display: flex;
       justify-content: space-evenly;
 }
 
-#apresentacao{
+#apresentacao {
       width: 60%;
 }
 
-.titulo{
+.titulo {
       margin-top: 20%;
       margin-bottom: 0%;
 }
 
-.resumo{
+.resumo {
       color: white;
       font-size: 25px;
       margin-top: 0%;
       text-align: justify;
 }
 
-#menuLateral{
+#menuLateral {
       width: 20%;
-      position:relative;
+      position: relative;
 }
 
-#textoMenu{
+#textoMenu {
       color: #ff0f7b;
       font-size: 30px;
       margin-top: 30%;
@@ -50,30 +61,30 @@ body {
       padding: 0%;
 }
 
-.cantos{
+.cantos {
       height: 20%;
 }
 
-#cantoSuperior{
+#cantoSuperior {
       transform: rotate(180deg);
       width: 80%;
-      position:absolute;
+      position: absolute;
 }
 
-#listaMenu{
+#listaMenu {
       position: relative;
-      top:15%;
-      left:10%;
+      top: 15%;
+      left: 10%;
 }
 
-#cantoInferior{
+#cantoInferior {
       width: 80%;
-      position:relative;
-      top:10%;
+      position: relative;
+      top: 10%;
       margin-left: 10%;
 }
 
-.itemMenu{
+.itemMenu {
       list-style-type: none;
 }
 
@@ -83,72 +94,72 @@ ul li.itemMenu a {
       font-size: 20px;
 }
 
-#blocoInferior{
+#blocoInferior {
       display: flex;
       justify-content: center;
       color: #ff0f7b;
       font-size: 30px;
 }
 
-#seta{
-      width: 2%; 
+#seta {
+      width: 2%;
       margin-left: 49%;
       margin-right: 49%;
       height: 5%;
 }
 
-/* Estilos do Sobre */
-#textoSobre{
+/* Estilos do componente Sobre */
+#textoSobre {
       margin-left: 5%;
       margin-bottom: 0%;
 }
 
-#sobreInfo{
+#sobreInfo {
       display: flex;
       justify-content: space-around;
 }
 
-#retrato{
+#retrato {
       height: 300px;
       margin-left: 2%;
       margin-top: 8%;
 }
 
 
-.sobreTexto{
+.sobreTexto {
       width: 90%;
       text-align: justify;
 }
 
-/* Estilos das Linguagens */
-#tituloLinguagens{
+/* Estilos do componente Linguagens */
+#tituloLinguagens {
       display: flex;
       justify-content: center;
 }
 
-#linguagemInfo{
+#linguagemInfo {
       display: flex;
       width: 100%;
 }
 
-#iconesLinguagens{
+#iconesLinguagens {
       width: 70%;
       display: flex;
       justify-content: space-between;
 }
 
-.icon{
+.icon {
       height: 80px;
 }
 
-#textoLinguagens{
+#textoLinguagens {
       width: 25%;
 }
 
-#botaoProjetos{
+#botaoProjetos {
       color: white;
       background-color: #ff0f7b;
-      border-radius:20px;
+      border-radius: 20px;
       width: 33%;
       height: 20%;
       display: flex;
@@ -159,40 +170,120 @@ ul li.itemMenu a {
       font-size: medium;
 }
 
-#setaDireita{
+#setaDireita {
       height: 50%;
       width: 30%;
 }
 
-/* Estilos das Habilidades */
- #tituloHab{
+/* Estilos do componente Habilidades */
+#PaginaHab {
+      display: flex;
+      justify-content: space-between;
+}
+
+#tituloHab {
       margin-left: 2%;
       margin-bottom: 0%;
- }
+}
 
- .listaHab{
+.listaHab {
       list-style: circle;
       margin-left: 4%;
- }
+}
 
- #subtitulo{
-      color: #ff0f7b;
-      font-size: 40px;
+#tituloIdioma {
       margin-left: 4%;
       margin-bottom: 0%;
- }
+}
 
- #blocoIdiomas{
+#blocoIdiomas {
       margin-left: 6%;
- }
+}
 
- .nivel{
+.nomeIdioma {
+      margin: 0%;
+}
+
+.nivel {
       display: flex;
- }
+}
 
- .nivelIdioma{
+.nivelIdioma {
       color: white;
       font-size: 20px;
       margin-left: 2%;
- }
- 
+}
+
+#imagemHabilidades{
+      margin-top: 10%;
+      display: flex;
+      justify-content:center;
+}
+
+#engrenagem {
+      align-items: center;
+      width: 50%;
+      height: 60%;
+}
+/* Estilos do componente Projetos */
+#projetos{
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.blocos{
+      border-color: #ff0f7b;
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2%;
+      color: #fff;
+      list-style-type: none;
+      text-decoration: none;
+      width: 20%;
+}
+
+.tituloProjeto{
+      display: flex;
+      justify-content: center;
+      color: #ff0f7b;
+      font-size: 30px;
+      padding: 8%;
+      margin: 0%;
+}
+
+.imagemProjeto{
+      width: 100%;
+      border-top: #ff0f7b solid;
+      border-bottom: #ff0f7b solid;
+}
+
+.resumoProjeto{
+      font-size: 20px;
+}
+
+/* Estilos do componente Contatos */
+#Contato {
+      background-image: url(../Assets/teclado.jpg);
+      background-size:cover;
+}
+
+.infos {
+      color: white;
+      font-size: 20px;
+      margin: 0%;
+}
+
+#contatos {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 25%;
+}
+
+#iconsContato{
+      width: 11%;
+}
+
+.icon{
+      height: 40px;
+      margin-right: 5%;
+}

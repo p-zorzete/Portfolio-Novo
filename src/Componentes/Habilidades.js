@@ -1,9 +1,10 @@
 import cinco from "../Assets/5-estrelas.png"
 import duas from "../Assets/2-estrelas.png"
+import engrenagem from "../Assets/engrenagem.png"
 
 function Habilidades() {
       return (
-            <div>
+            <div id="PaginaHab">
                   <div id="topicos">
                         <div id="habilidades">
                               <h1 className="tituloRosa" id="tituloHab">Habilidades</h1>
@@ -17,7 +18,7 @@ function Habilidades() {
                               </ul>
                         </div>
                         <div id="idiomas">
-                              <h2 id="subtitulo">Idiomas</h2>
+                              <h2 className="subtitulo" id="tituloIdioma">Idiomas</h2>
                               <div id="blocoIdiomas">
                                     <h3 className="nomeIdioma textos">Inglês</h3>
                                     <div className="nivel">
@@ -33,7 +34,7 @@ function Habilidades() {
                         </div>
                   </div>
                   <div id="imagemHabilidades">
-                        <img alt="Lampada com contorno branco" id="lampada"/>
+                        <img alt="Lampada com contorno branco" id="engrenagem" src={engrenagem}/>
                   </div>
             </div>
       )
