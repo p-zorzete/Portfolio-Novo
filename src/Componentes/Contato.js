@@ -14,9 +14,9 @@ function Contato() {
                               <p className="infos">pedro.zorzeteb@gmail.com</p>
                         </div>
                         <div id="iconsContato">
-                              <img alt="Ícone que simboliza o github" className="icon" src={git}/>
-                              <img alt="Ícone que simboliza o linkedIn" className="icon" src={linkedin}/>
-                              <img alt="Ícone que simboliza o linkedIn" className="icon" src={curriculo}/>
+                              <img alt="Ícone que simboliza o github" className="icones" src={git}/>
+                              <img alt="Ícone que simboliza o linkedIn" className="icones" src={linkedin}/>
+                              <img alt="Ícone que simboliza o linkedIn" className="icones" src={curriculo}/>
                         </div>
                   </div>
             </div>

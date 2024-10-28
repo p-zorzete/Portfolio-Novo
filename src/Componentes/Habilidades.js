@@ -5,7 +5,7 @@ import engrenagem from "../Assets/engrenagem.png"
 function Habilidades() {
       return (
             <div id="PaginaHab">
-                  <div id="topicos">
+                  <div>
                         <div id="habilidades">
                               <h1 className="tituloRosa" id="tituloHab">Habilidades</h1>
                               <ul>
@@ -17,7 +17,7 @@ function Habilidades() {
                                     <li className="listaHab textos">Excel Avançado</li>
                               </ul>
                         </div>
-                        <div id="idiomas">
+                        <div>
                               <h2 className="subtitulo" id="tituloIdioma">Idiomas</h2>
                               <div id="blocoIdiomas">
                                     <h3 className="nomeIdioma textos">Inglês</h3>
@@ -33,9 +33,7 @@ function Habilidades() {
                               </div>
                         </div>
                   </div>
-                  <div id="imagemHabilidades">
-                        <img alt="Lampada com contorno branco" id="engrenagem" src={engrenagem}/>
-                  </div>
+                  <img alt="cabeça com engrenagens dentro" id="imagemHab" src={engrenagem}/>
             </div>
       )
 }
