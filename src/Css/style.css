@@ -257,12 +257,33 @@ ul li.itemMenu a {
 
 .imagemProjeto{
       width: 100%;
+      height: 50%;
       border-top: #ff0f7b solid;
       border-bottom: #ff0f7b solid;
 }
 
 .resumoProjeto{
       font-size: 20px;
+      text-align: justify;
+      margin: 5% 2%;
+}
+
+.botaoGit {
+      align-items: center;
+      background-color: #ff0f7b;
+      border-radius: 20px;
+      border-color: white;
+      font-family: "Abel", sans-serif;
+      font-size: medium;
+      font-weight: 400px;
+      margin: 5% 10% 0% 10%;
+      width: 80%;
+      padding: 5%;
+}
+
+.botaoGit a{
+      text-decoration: none;
+      color: white;
 }
 
 /* Estilos do componente Contatos */
