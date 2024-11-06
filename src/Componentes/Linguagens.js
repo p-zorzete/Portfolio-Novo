@@ -8,7 +8,7 @@ import seta from "../Assets/seta-direita.png"
 
 function Linguagens() {
       return (
-            <div>
+            <div id="linguagens">
                   <h1 className="tituloRosa" id="tituloLinguagem">Linguagens</h1>
                   <div id="linguagemInfo">
                         <div id="areaIcone">

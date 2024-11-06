@@ -2,7 +2,7 @@ import retrato from "../Assets/Retrato.png"
 
 function Sobre() {
       return(
-            <div>
+            <div id="sobre">
                   <h1 className="tituloRosa" id="textoSobre">Sobre Mim</h1>
                   <div id="sobreInfo">
                         <img alt="Foto minha usando uma camisa cinza" src={retrato} id="retrato"/>

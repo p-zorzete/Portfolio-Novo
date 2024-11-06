@@ -6,11 +6,11 @@ import App from "../App";
 
 function Projetos() {
       return (
-            <div>
+            <div id="projetos">
                   <h1 className="tituloBranco">Projetos</h1>
                   <h2 className="subtitulo">Front-End</h2>
                   <div>
-                        <ul id="projetos">
+                        <ul id="mural">
                               <li className="blocos">
                                     <h3 className="tituloProjeto">Educação Web</h3>
                                     <img className="imagemProjeto" alt="visualição do site da educação web" src={educacao}/>

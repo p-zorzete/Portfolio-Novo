@@ -15,29 +15,29 @@ function Capa() {
                               <img alt="Canto de um quadro, sendo a parte superior" className="cantos" id="cantoSuperior" src={canto}/>
                               <ul id="listaMenu">
                                     <li className="itemMenu">
-                                          <Link to="#sobre">
-                                                <span class="linkTexto">Sobre mim</span>
-                                          </Link>
+                                          <a href="#sobre">
+                                                <span className="linkTexto">Sobre mim</span>
+                                          </a>
                                     </li>
                                     <li className="itemMenu">
-                                          <Link to="#linguagens">
+                                          <a href="#linguagens">
                                                 <span className="linkTexto">Linguagens</span>
-                                          </Link>
+                                          </a>
                                     </li>
                                     <li className="itemMenu">
-                                          <Link to="#habilidades">
+                                          <a href="#PaginaHab">
                                                 <span className="linkTexto">Habilidades</span>
-                                          </Link>
+                                          </a>
                                     </li>
                                     <li className="itemMenu">
-                                          <Link to="#projetos">
+                                          <a href="#projetos">
                                                 <span className="linkTexto">Projetos</span>
-                                          </Link>
+                                          </a>
                                     </li>
                                     <li className="itemMenu">
-                                          <Link to="#contato">
+                                          <a href="#contato">
                                                 <span className="linkTexto">Contato</span>
-                                          </Link>
+                                          </a>
                                     </li>
                               </ul>
                               <img alt="Canto de um quadro, sendo a parte superior" className="cantos" id="cantoInferior" src={canto}/>

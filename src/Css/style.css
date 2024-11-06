@@ -230,7 +230,7 @@ ul li.itemMenu a {
 }
 
 /* Estilos do componente Projetos */
-#projetos{
+#mural{
       display: flex;
       justify-content: space-evenly;
 }
@@ -287,7 +287,7 @@ ul li.itemMenu a {
 }
 
 /* Estilos do componente Contatos */
-#Contato {
+#contato {
       background-image: url(../Assets/teclado.jpg);
       background-size:cover;
 }

@@ -5,7 +5,7 @@ import curriculo from "../Assets/curriculo.png"
 
 function Contato() {
       return (
-            <div id="Contato">
+            <div id="contato">
                   <h1 className="tituloBranco">Contato</h1>
                   <div id="contatos">
                         <div>
